@@ -27,7 +27,7 @@ console.log(user);
 ;
 const mySize = 2;
 console.log(mySize);
-function abc(a, b = 0) {
+function abc(a, b) {
     if (a < b) {
         return a ** b;
     }
